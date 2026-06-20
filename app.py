@@ -222,7 +222,9 @@ if "form_gen"   not in st.session_state: st.session_state.form_gen   = 0
 if "pdf_listo"  not in st.session_state: st.session_state.pdf_listo  = None
 if "pdf_meta"   not in st.session_state: st.session_state.pdf_meta   = None
 
-st.title("📝 OPTIMARGE SAC")
+st.set_page_config(page_title="OPTIMARGE EIRL", page_icon="🚗", layout="centered")
+st.title("🚗 OPTIMARGE EIRL")
+st.subheader("Sistema de Registro de Servicios")
 
 # ════════════════════════════════════════════════════════════
 # 1. DATOS Y CONEXIÓN
